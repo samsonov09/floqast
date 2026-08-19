@@ -1,0 +1,4 @@
+interface:
+  display_name: "Senior QE Assessment"
+  short_description: "Build and review scoped Playwright assessment frameworks"
+  default_prompt: "Build or review this QE assessment using the supplied requirements, preserving scope and documenting AI assistance."

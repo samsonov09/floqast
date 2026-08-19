@@ -1,0 +1,23 @@
+{
+  "name": "senior-qe-take-home",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "tsx src/server.ts",
+    "format:check": "prettier --check \"**/*.{ts,json,yml,md}\" --ignore-path .gitignore",
+    "typecheck": "tsc --noEmit",
+    "test": "playwright test",
+    "test:api": "playwright test --project=api",
+    "test:ui": "playwright test --project=ui",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/express": "^5.0.6",
+    "@types/node": "24.3.0",
+    "express": "^5.2.1",
+    "prettier": "^3.6.2",
+    "tsx": "^4.23.12",
+    "typescript": "5.9.2"
+  }
+}
